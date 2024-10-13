@@ -1,0 +1,3 @@
+a simple RAG that uses function calling to query an Excel file using SQL to provider answers to user questions.
+
+Using Excel files for RAG is fundamentally different from other methods, since common chunking strategies do not work well with this type of format. However, the Excel table format lends itself extremely well to structured retrieval, such as with SQL. On top of that, LLMs are trained on a vast amount of SQL data, ensuring an high query success rate even with complex, multi-table queries! As the cherry on top, SQL is known for being extremely scalable and accurate, minimizing errors in the retrieval step and hallucinations in the final generation step.
